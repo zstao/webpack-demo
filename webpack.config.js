@@ -1,12 +1,14 @@
-var webpack = require('webpack');
+//var webpack = require('webpack');
 var path = require("path");
 
 module.exports = {
-    entry:  [
-        './src/js/index.js'
-    ],
+    //entry: [
+    //    'webpack/hot/dev-server',
+    //    path.resolve(__dirname, 'src/js/index.js')
+    //],
+    entry: path.resolve(__dirname, 'src/js/main.js'),
     output: {
-        path:  path.join(__dirname, 'build'),
+        path:  path.resolve(__dirname, 'build'),
         filename: "bundle.js"
     },
     //plugins: [
