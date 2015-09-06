@@ -1,13 +1,15 @@
-var React = require('react');
+'use strict';
+//var React = require('react');
+import React from 'react';
 
-var Header = React.createClass({
-    render: function(){
+export default class Header extends React.Component{
+    render(){
         return(
             <div>
                 this is the header
             </div>
         )
     }
-});
+}
 
-module.exports = Header;
+//module.exports = Header;

@@ -1,9 +1,12 @@
 'use strict';
-var React = require('react');
+import React from 'react';
+import Header from './header';
 
-var Header = require('./header');
+main();
 
-React.render(
-    <Header />,
-    document.getElementById('header')
-);
+function main(){
+    React.render(
+        <Header />,
+        document.getElementById('header')
+    );
+}
