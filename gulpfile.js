@@ -31,7 +31,7 @@ gulp.task('sass', function(){
         .pipe(rename('all.css'))
         .pipe(gulp.dest(paths.output))
         .pipe(minifyCss())
-        .pipe(gulp.rename('all.min.css'))
+        .pipe(rename('all.min.css'))
         .pipe(gulp.dest(paths.output));
 });
 
