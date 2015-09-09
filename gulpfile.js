@@ -8,9 +8,9 @@ var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
 
 var paths = {
-    scripts: ['src/*.js'],
-    css: ['src/*.scss'],
-    output: ['dist']
+    scripts: 'src/*.js',
+    css: 'src/*.scss',
+    output: 'dist'
 };
 
 gulp.task('jsx', function(){
